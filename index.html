@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- Stylesheets -->
+
+    <link href="./CSS/HomeIndex.css" rel="stylesheet"/>
+
+    <link href="./CSS/NavBarIndex.css" rel="stylesheet"/>
+
+    <link href="./CSS/About-Icons.css" rel="stylesheet"/>
+
+    <link href="./CSS/AboutIndex.css" rel="stylesheet"/>
+
+    <link href="./CSS/ModalStyle.css" rel="stylesheet"/>
+
+    <link href="./CSS/ProjectsIndex.css" rel="stylesheet"/>
+
+    <link href="./CSS/ProjectInfo.css" rel="stylesheet"/>
+
+    <link href="./CSS/ContactIndex.css" rel="stylesheet"/>
+    
+    <link href="./CSS/ContactLinks.css" rel="stylesheet"/>
+
+    <!-- fonts  and icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+<body>
+
+
+    
+    <!-- Home page section -->
+
+    <div id="home-observer" class="container">
+        <div class="background"></div>
+     <div class="text-node">
+      <h1>
+        I am <span style='--content:"Sebastian Acosta"; --start-color:#007CF0; --end-color: #00DFD8; --delay: 0s;'>Sebastian Acosta</span> 
+        , I develop <span
+        style='--content:"web apps"; --start-color:#7928CA; --end-color: #FF0080 ;--delay: 5s;' >web apps</span>
+      </h1>
+     
+      <button  onclick="Link('#about-link')"> <span>Check my work</span> <span class="material-symbols-outlined">
+        arrow_forward
+     </span>   </button>
+   
+    </div>
+      </div>
+
+      <!-- Navbar -->
+      
+      <div  class="navbar">
+ 
+
+        <div class="hamburguer">
+          <nav>
+            <span class="bar"></span>
+            <span class="bar"></span>
+             <span class="bar"></span>
+          </nav>  
+        </div>
+       
+          <nav class="nav-items">
+            <a href=""> Home </a>
+            <a href=""> About</a>
+            <a href=""> Portfolio</a>
+            <a href="">Contact</a>
+          </nav>
+      
+        
+      
+        </div>
+    
+      
+
+    <!--About page -->
+
+
+  <div id="about-link" class="pageTitle">
+  
+    <h1  class="title-section"> About </h1>
+  </div>
+  
+    <div   class="about-container">
+        
+        <div class="lhs"  data-aos="fade-right" data-aos-once="true">
+
+            <img src="https://media-exp1.licdn.com/dms/image/C5603AQFXjG-rAqtFQw/profile-displayphoto-shrink_800_800/0/1662698909267?e=1668038400&v=beta&t=h6RqC_-B7KvntUqxRJL7vhnPpIVyzvt6NpVHSav3H4o" alt="-"/>
+
+            <h1>
+                Who Am I ?
+            </h1>
+            
+            <p> I am a Computer Science student in Vancouver, BC. I have a strong passion for fast, intuitive and scalable web applications. <a href="#contact-link"> Lets work together.</a></p>
+            
+
+        </div>
+
+        <div class="rhs"  data-aos="fade-left" data-aos-once="true" >
+
+
+        <h1> Technologies  </h1>
+
+
+
+
+    <div class="wrapper">
+        <div class="box a">MongoDB</div>
+        <div class="box b">React</div>
+        <div class="box c">C++</div>
+        <div class="box d">JavaScript</div>
+        <div class="box e">Node JS</div>
+    </div>
+        </div>
+
+
+    </div>
+    
+  
+  <div class="screen">
+  
+  <div class="icon-container">
+  
+  <div class="logo" style="--logobg:rgb(145, 214, 145)">
+  
+  <span class="material-symbols-outlined">
+  verified_user
+  </span>
+  
+  </div>
+  
+  <h1>Secure </h1>
+  <p> Verify user identity through encryption and session tokens</p>
+  
+  </div>
+  
+  <div class="icon-container">
+  
+  <div class="logo" style="--logobg:rgb(214, 145, 145)">
+  
+  <span class="material-symbols-outlined">
+  database
+  </span>
+  
+  </div>
+  
+  <h1>Full-stack </h1>
+  <p> Client and server side integration and deployment </p>
+  
+  </div>
+  
+  <div class="icon-container">
+  
+  <div class="logo" style="--logobg:rgb(145, 145, 214);">
+  
+  <span class="material-symbols-outlined">
+  
+  fit_screen
+  
+  </span>
+  
+  </div>
+  
+  <h1>Responsive </h1>
+  <p> Layout adjusted and adapted for any size screen</p>
+  
+  </div>
+  
+  
+  
+  </div>
+
+  <!-- Projects page -->
+
+  <div id="modal-container" >
+    <div class="modal">
+      
+      <img id="placeholderImage" src="https://github.githubassets.com/images/modules/open_graph/github-octocat.png" alt='-'/>
+     
+
+    <div class="buttons-view"> 
+      <button onclick="nextImg()">
+        <span class="material-symbols-outlined">
+          arrow_back_ios_new
+          </span>
+        </button>
+        <button onclick="prevImg()">
+          <span class="material-symbols-outlined">
+            arrow_forward_ios
+            </span>
+        </button>
+      </div>
+     
+      <div class="placeholder-modal">
+      <h1>Title </h1>
+      <h2> second title </h2>
+      <p> Description </p>
+      </div>
+      <div class="modal-links">
+      <a href="#" id="link-btn"  > View </a>
+      <a   href="#"> <i class="fa fa-github"></i>  </a>
+      <button onclick="closeModal()" id="close-modal" > 
+        <span class="material-symbols-outlined">
+    close
+    
+    </span>
+         </button>
+      </div>
+    </div>
+    </div>
+
+
+
+<div class="projects-container">
+
+
+<h1 class="title-section"     data-aos-once="true"    data-aos="fade-right"> Projects</h1>
+
+<div class="projects-content" data-aos-once="true"    data-aos="fade-left">
+
+
+<div id="GiffyApp" class="projects-box" onclick="gotoLink(this)"> 
+  <img   class="image" src="./public/giffy05.png" alt="-"/> 
+<h1 class="project-info">Giffy App</h1>
+<h3 class="project-info">React JS | NodeJS</h3>
+<button class="project-info" onclick="SetUp(this)"> Discover</button>
+</div>
+
+
+
+<div id="AI" class="projects-box" onclick="gotoLink(this)"> 
+    <img class="image" src="https://cdn-ckhkd.nitrocdn.com/TBDCGQbQxqGdTdlLdTFaoAGZazJemBHC/assets/static/optimized/rev-3fea515/wp-content/uploads/2021/07/Picture_1-min-2.png" alt="-"/>
+    <h1 class="project-info">AI</h1>
+    <h3 class="project-info">React JS | Testing</h3>
+    <button class="project-info" onclick="SetUp(this)">Discover</button>
+</div>
+
+<div id="CppProject" class="projects-box" onclick="gotoLink(this)"> 
+  <img class="image"  src="./public/julia.jpg" alt="-"/>
+  <h1 class="project-info">Fractals Generator</h1>
+  <h3 class="project-info">C++</h3>
+  <button class="project-info"  onclick="SetUp(this)">Discover</button>
+</div>
+
+<!-- <div id="GiffyApp4" class="projects-box"> 
+    <img class="image"  src="https://cdn-ckhkd.nitrocdn.com/TBDCGQbQxqGdTdlLdTFaoAGZazJemBHC/assets/static/optimized/rev-3fea515/wp-content/uploads/2021/07/Picture_1-min-2.png" alt="-"/>
+    <h1 class="project-info">Chrome Extension</h1>
+    <h3 class="project-info"> JavaScript </h3>
+    <button class="project-info">Discover</button>
+</div> -->
+
+<div id="future" class="projects-box"> 
+    <img class="image"  src="https://cdn-ckhkd.nitrocdn.com/TBDCGQbQxqGdTdlLdTFaoAGZazJemBHC/assets/static/optimized/rev-3fea515/wp-content/uploads/2021/07/Picture_1-min-2.png" alt="-"/>
+    <h1 class="project-info"> Blank </h1>
+    <h3 class="project-info">Technologies</h3>
+    <button class="project-info"  onclick="SetUp(this)">Discover</button>
+</div>
+
+  
+
+</div>
+
+</div>
+
+
+<section>
+  <!-- svg-->
+  <svg style="background-color: rgba(30, 30, 80, 0.6); padding:0; margin:0;" preserveAspectRatio="none" viewBox="0 0 100 102" height="80" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+    <path d="M0 0 L50 100 L100 0 Z" fill="rgb(245,245,245)" stroke="rgb(245,245,245)"></path>
+  </svg>
+   <!-- Contact information page -->
+
+
+        
+   <div id="contact-link" class="contact-container">
+
+    <h1 class="title-section">Contact me</h1>
+    
+    <p>Have a question or want to work together? </p>
+    
+    <form action="https://formsubmit.co/cfd3c13f136d29154e4f38a6b197384f" method="POST">
+      <input type="text"  placeholder="Name" style="--height:5;" />
+      <input type="email" name="name" placeholder="Email"
+      style="--height:4vh;" />
+       <textarea placeholder="Mesage"
+       style="--height:10vh;"></textarea>
+       <button>Submit</button>
+    </form>
+    
+    
+    
+    </div>
+
+
+    <div  class="contactInfo-container">
+        <div class="contactInfo-flex">
+          <p>
+       <a href="mailto:sacostamolina@outlook.com">  <i class="material-icons">mail</i></a>
+            
+          </p>
+          <p>
+           <a href="https://github.com/SebastianAc02"> <i class="fa fa-github"></i></a> 
+          </p>
+          <p>
+            <a   href="https://www.linkedin.com/in/sebasacostaprogrammer/"><i class="fa fa-linkedin-square"></i></a>
+          </p>
+          
+        </div>
+      
+        <p> Sebastian Acosta Ⓒ <span style="color:#7928CA;">2022</span>  </p>
+      </div>
+
+    </section>
+
+
+  <script >
+    function Link(to){
+      window.location.href = to
+  
+    }
+
+
+
+    
+
+
+  </script>
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./Scripts/Navbar.js"></script>
+    <script src="./Scripts/Animation.js"></script>
+    <script src="./Scripts/Projects.js"></script>
+</body>
+</html>

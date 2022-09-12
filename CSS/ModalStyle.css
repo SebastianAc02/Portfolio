@@ -1,0 +1,156 @@
+
+#modal-container{
+    left: 0;
+right: 0;
+    top: 0;
+    bottom: 0;
+    backdrop-filter: blur(2px);
+    background-color: rgba(230, 230, 230, 0.361);
+    position: fixed;
+    display: grid;
+    visibility: hidden;
+   
+    justify-content: center;
+
+  }
+  
+  .modal{
+  height: 80vh;
+  width: 600px;
+  display: grid;
+  grid-template-rows: 65% 25% 10%  ;
+  position: relative;
+  background-color: #fff;
+  opacity: 1;
+  }
+
+  .carousel{
+  
+    background-color: red;
+  }
+
+  .modal img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .modal-links{
+
+   
+    display: flex;
+    align-items:flex-end;
+    justify-content:space-between;
+    
+    
+      
+  }
+  
+ 
+  
+  .modal-links > a{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    padding: 10px;
+  }
+  
+  #link-btn{
+    float: left;
+   color: white;
+   padding: 3px 10px;
+    background-color: #FF0080;
+
+    
+  }
+  
+  #close-modal{
+    background-color:transparent;
+    padding: 10px;
+    color: #FF0080 ;
+    padding: 10px;
+    border: 1px solid #FF0080;
+    
+    
+  }
+
+  #close-bodal:hover {
+   color:red;
+  }
+
+
+.buttons-view {
+  width: 100%;
+  position: absolute;
+  display: grid;
+ gap: 70%;
+ top:60%;
+ inherits: inherit;
+  grid-template-columns: repeat(2,1fr);
+  
+}
+
+.buttons-view  button{
+  color:pink;
+  background-color: transparent;
+  border: 0px;
+
+}
+
+
+/* font styles for the "placeholder " used in the modal*/
+
+#placeholderImage {
+  margin: 0 0px;
+}
+
+
+.placeholder-modal{
+ align-items: center;
+ justify-content: left;
+
+}
+
+.placeholder-modal *{
+  margin: 5px 0px;
+  padding: 5px 0px;
+}
+
+.placeholder-modal  h1{
+  font-size: 1.6rem;
+
+  font-weight: 300;
+}
+
+.placeholder-modal h2{
+color:rgb(200,200,200);
+font-size: 1.2rem;
+
+font-weight: 100;
+}
+
+.placeholder-modal p{
+  color:rgb(100,100,100);
+  font-size:1rem;
+ 
+  
+  font-weight: 100;
+}
+  
+
+
+
+@media only screen and (max-width: 821px){
+  #modal-container{
+    display: none;
+  }
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

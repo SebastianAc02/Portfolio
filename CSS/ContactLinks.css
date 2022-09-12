@@ -1,0 +1,29 @@
+.contactInfo-container{
+    width: 100vw;
+    height: 30vh;
+    background-color: rgba(30, 30, 80, 0.608);
+    display: grid;
+    place-items: center;
+    
+  }
+  
+  .contactInfo-flex{
+    display: flex;
+    column-gap: 20vw;
+  }
+  
+  .contactInfo-flex > *{
+    flex-basis: 33%;
+   
+  }
+
+ 
+
+
+  .contactInfo-flex i{
+    font-size: 30px;
+    color: #7928CA;
+  }
+
+
+

@@ -1,0 +1,53 @@
+
+.project-info{
+    display: none;
+   
+    
+  }
+  
+
+  
+  
+  h1.project-info{
+    font-size: 1.5rem;
+  }
+  
+  h3.project-info{
+    color: #FF0080;
+  }
+  
+  button.project-info  {
+    padding: 15px 30px;
+    font-weight: 200;
+    background-color: white;
+    border: 1px solid #FF0080;
+  }
+
+  button.project-info:hover{
+    background-color: #FF0080;
+  }
+  
+  a.linkToProjects{
+    font-size: inherit;
+    text-decoration: none;
+  }
+
+
+
+
+  @media only screen and (min-width: 821px){
+  
+    .projects-box:hover .image{
+      display: none;
+    }
+   
+   
+   .projects-box:hover  .project-info {
+   display: block;
+   }
+   
+  }
+  
+  
+  
+  

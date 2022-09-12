@@ -1,0 +1,79 @@
+
+
+  
+  .screen{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    
+    justify-content: center;
+
+    background-color: rgb(230,230,230);
+  
+  }
+  
+  .icon-container{
+    width: 18vw;
+    height: auto;
+    display: grid;
+    grid-template-rows: auto auto 100px;
+    place-items: center;
+    justify-content: center;
+    margin: 0 20px;
+  
+  }
+  
+  .logo{
+   margin: 20px;
+   background-color: var(--logobg);
+   width: 130px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    transform: skewX(-10deg);
+  }
+  .screen  p{
+    
+    display:inline-block;
+    line-height: 1.7;
+    padding: 0 12px;
+    color: rgb(90,90,90);
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: -.06em;
+    margin: 0 0 16px;
+  
+  
+  }
+
+  .screen  h1{
+    font-size: 1.2rem;
+  }
+
+  @media only screen and (max-width: 800px){
+    
+	.logo{
+        width: 100%;
+       
+    }
+
+    .icon-container h1{
+       font-size: 1rem;
+       
+    }
+
+    /*
+    I prefer the user to just have the title
+    becauseit was i wanted it to have the more relevance
+    and also the content could be more counterproductive after all */
+    .icon-container > p {
+     
+      display:none
+       
+    }
+
+   
+   
+}

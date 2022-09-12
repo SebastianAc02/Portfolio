@@ -1,0 +1,72 @@
+*{
+
+    margin: 0;
+   padding: 0;
+  font-family: 'Montserrat', sans-serif;
+ 
+ 
+ }
+ 
+ 
+.contact-container{
+    
+    width: 100vw;
+    height: 80vh;
+    display: grid;
+    grid-template-rows: 20% 10% 70%;
+    
+    place-items: center;
+    background-color: rgba(30, 30, 80, 0.608);
+    }
+    
+    
+    .contact-container form{
+        width: 40vw;
+    }
+    
+    .contact-container form > input, textarea{
+    width: 90%;
+    height: var(--height);
+    padding: 8px 12px;
+    margin: 5px;
+    color: rgb(230,230,230);
+    font-size:100%;
+    background-color: rgba(30, 30, 80, 1);
+    }
+    
+    .contact-container form > input::placeholder, textarea::placeholder{
+      color: rgba(200,200,200,0.7);
+    }
+    
+    .contact-container button{
+    background-color: transparent;
+    padding: 15px 40px;
+    margin: 5px 0 0 5px;
+    font-size: 12px;
+    color: #fff;
+    border: 2px solid #fff;
+    
+    
+    }
+    
+    .contact-container button:hover{
+      background-color:rgba(0, 223, 216, 0.8) ;
+    }
+    
+    .contact-container p{
+      color: #00DFD8;
+padding: 0 14px;
+font-weight: 300;
+letter-spacing: -.06em;
+margin: 0 0 16px;
+font-size: 1.5rem;
+    
+    }
+    
+    .contact-container h1{
+      color: #fff;
+      font-style: italic;
+      font-size: 1.5rem;
+    }
+    
+    
