@@ -2,8 +2,8 @@ const ProjectData = [
 
     {
         id:"GiffyApp",
-        src: ["../public/giffy05.png", 
-         "../public/giffy04.png", "../public/giffy02.png" , "../public/giffy01.png"],
+        src: ["./public/giffy05.png", 
+         "./public/giffy04.png", "./public/giffy02.png" , "./public/giffy01.png"],
         title:"Giffy application",
         summary: "Social entertainment app",
         description:"This full stack app which functionality is save your favourites gifs and share them with friends",
@@ -13,7 +13,7 @@ const ProjectData = [
     },
     {
         id:"AI",
-        src: ["../public/blank_sqr.png", 
+        src: ["./public/blank_sqr.png", 
         "../public/blank_sqr.png"],
         title:"In progress",
         summary: "",
@@ -23,7 +23,7 @@ const ProjectData = [
 
     },{
         id:"CppProject",
-        src: ["../public/julia.jpg", 
+        src: ["./public/julia.jpg", 
         "../public/mandelbrot.jpg"],
         title:"Fractal Generator",
         summary: "Create fractals using oop",
@@ -34,8 +34,8 @@ const ProjectData = [
     },
     {
         id:"future",
-        src: ["../public/blank_sqr.png", 
-        "../public/blank_sqr.png"],
+        src: ["./public/blank_sqr.png", 
+        "./public/blank_sqr.png"],
         title:"In progress",
         summary: "",
         description:"",
