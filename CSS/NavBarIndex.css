@@ -1,8 +1,10 @@
 *{
   padding: 0;
   margin: 0;
-  overflow-x: hidden;
+
+
 }
+
 
 
 
@@ -74,6 +76,11 @@
 
 
 @media only screen and (max-width:700px){
+
+  *{
+    overflow-x: hidden;
+   
+  }
 
   .navbar{
     position: fixed;

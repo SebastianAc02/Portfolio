@@ -66,7 +66,7 @@
  @media only screen and (max-width: 821px){
   .projects-box{
     flex-basis: 50%;
-    
+    overflow-y: hidden;
    
     
     }
@@ -76,8 +76,10 @@
   .projects-box{
     flex-basis: 100%;
     
-   
+    
     }
+
+
 }
 
 

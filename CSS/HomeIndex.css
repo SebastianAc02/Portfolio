@@ -16,7 +16,7 @@ html {
 }
 
 .container{
- 
+  
    height: 100vh;
   width: 100vw;
   display: grid;
@@ -41,7 +41,7 @@ position: relative;
 
 
 h1{
-   
+  
   color: black;
   font-size: 4rem;
   text-align: center;
@@ -54,6 +54,7 @@ h1{
 
 
 span{
+  overflow: hidden;
     display:inline-block;
     line-height: 1.1;
     padding: 0 12px;
