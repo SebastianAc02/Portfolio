@@ -83,7 +83,7 @@
     /* RHS DIV*/
     
     .about-container .rhs{
-      
+     
         flex: 40%;
         margin: 0 7% 10% 3%;
         display: grid;
@@ -91,14 +91,35 @@
        
       
     }
+  
     
     
     /* Media query for ipad or smaller screens*/
     @media only screen and (max-width: 600px){
         .about-container{
-            flex-direction: column;
-            height: 120vh;
+          display: grid;
+            
+            height: 140vh;
+           
         }
+
+        .rhs{
+            height: 80%;
+        }
+       
+
+       
+        .lhs img{
+            width: 70%;
+            height: 70%;
+        }
+      
+       
+        
+       
+       
+
+
     }
     
     
