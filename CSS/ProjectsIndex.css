@@ -16,6 +16,7 @@
    width: 100vw;
   display: grid;
    grid-template-rows: 20vh auto 20vh;
+   grid-template-columns: 100vw;
 
    place-items: center;
  }
@@ -71,7 +72,7 @@
     }
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 612px){
   .projects-box{
     flex-basis: 100%;
     

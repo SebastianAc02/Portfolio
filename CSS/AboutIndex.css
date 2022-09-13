@@ -95,16 +95,27 @@
     
     
     /* Media query for ipad or smaller screens*/
-    @media only screen and (max-width: 600px){
+    @media only screen and (max-width: 650px){
+
+        
+     
         .about-container{
-          display: grid;
-            
-            height: 140vh;
+          
+            display: grid;
+         
+         
+          height: 140vh;
+
+           
            
         }
 
+       
+
         .rhs{
-            height: 80%;
+        height: 80%;
+        
+         
         }
        
 
@@ -113,13 +124,10 @@
             width: 70%;
             height: 70%;
         }
+
+        
       
        
-        
-       
-       
-
-
     }
     
     
@@ -128,7 +136,7 @@
     .wrapper {
     width: 100%;
     
-        display: grid;
+    display: grid;
      
         grid-gap: 15px ;
      
@@ -143,8 +151,10 @@
         color: #fff;
         padding: 20px;
         border-radius: 20px;
-        font-size: 150%;
+        font-size: 140%;
+        overflow: hidden;
        
+     
     }
     
     .a {
