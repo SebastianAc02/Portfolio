@@ -31,7 +31,7 @@ if(entries[0].isIntersecting)
 
 
 if(window.innerWidth > 800)
-{c
+{
   obser2.observe(home)
 observer.observe(navbar)}
 
