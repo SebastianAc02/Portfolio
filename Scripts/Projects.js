@@ -12,7 +12,7 @@ const ProjectData = [
 
     },
     {
-        id:"Backend Gifs",
+        id:"Backend-Gifs",
         src: ["./public/BackendGif01.png", 
         "./public/BackendGif02.png"],
         title:"Backend for Gifs",
