@@ -54,7 +54,8 @@
 
  
  .projects-container h1{
-   
+   overflow: hidden;
+   width: 200px;
        font-weight: bold;
        font-size: 3rem;
      font-style: italic;

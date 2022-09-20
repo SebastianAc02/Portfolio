@@ -13,13 +13,13 @@
   }
   
   .icon-container{
-    width: 18vw;
+   
     height: auto;
     display: grid;
     grid-template-rows: auto auto 100px;
     place-items: center;
     justify-content: center;
-    margin: 0 20px;
+    margin: 0 5px;
   
   }
   
@@ -56,7 +56,7 @@
     
 	.logo{
   
-    overflow: visible;
+    overflow-x: visible;
        
     width: 100%;
     }
@@ -68,7 +68,7 @@
 
     /*
     I prefer the user to just have the title
-    becauseit was i wanted it to have the more relevance
+    because it was i wanted it to have the more relevance
     and also the content could be more counterproductive after all */
     .icon-container > p {
      

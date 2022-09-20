@@ -3,28 +3,28 @@ const ProjectData = [
     {
         id:"GiffyApp",
         src: ["./public/giffy05.png", 
-         "./public/giffy04.png", "./public/giffy02.png" , "./public/giffy01.png"],
-        title:"Giffy application",
+         "./public/giffy04.png", "./public/giffy02.png" , "./public/giffy01.png", "./public/Cypresse2e.png"],
+        title:"GeckoGifs application",
         summary: "Social entertainment app",
         description:"This full stack app which functionality is save your favourites gifs and share them with friends",
-        link: 'https://giffy-2i776knp2-sebastianac02.vercel.app/',
-        repository:"https://github.com/SebastianAc02/Giffy"
+        link: 'https://geckogifs.vercel.app',
+        repository:"https://github.com/SebastianAc02/GeckoGif"
 
     },
     {
-        id:"AI",
-        src: ["./public/blank_sqr.png", 
-        "../public/blank_sqr.png"],
-        title:"In progress",
-        summary: "",
-        description:"",
-        link:"",
-        repository:""
+        id:"Backend Gifs",
+        src: ["./public/BackendGif01.png", 
+        "./public/BackendGif02.png"],
+        title:"Backend for Gifs",
+        summary: "Web service to transfer data from users in UI to MongoDb",
+        description:"Backend for GeckoGifs application. Most endpoints need authorization first",
+        link:"https://gif-backend-db.onrender.com/",
+        repository:"https://github.com/SebastianAc02/GIFFY-Backend"
 
     },{
         id:"CppProject",
         src: ["./public/julia.jpg", 
-        "../public/mandelbrot.jpg"],
+        "./public/mandelbrot.jpg"],
         title:"Fractal Generator",
         summary: "Create fractals using oop",
         description:"This is an object oriented program. Achived working wiht other programmers, and will generate different patterns based in complex math.",

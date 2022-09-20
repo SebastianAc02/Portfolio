@@ -67,6 +67,13 @@ font-size: 1.5rem;
       color: #fff;
       font-style: italic;
       font-size: 1.5rem;
+      overflow: hidden;
+      width: 200px;
     }
     
     
+    @media only screen and (max-width: 600px){
+      .contact-container form{
+        width: 80vw;
+    }
+  }
